@@ -43,7 +43,7 @@ class _MercadoPagoPageState extends State<MercadoPagoPage> {
         ]
       }
     };
-    // 4170 0688 1010 8020
+    // 4055 1678 0230 2037 visa débito, 123 11/25 APRO
     var result = await mp.createPreference(preference);
     return result;
   }
